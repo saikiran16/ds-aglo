@@ -1,5 +1,5 @@
 // Write a function rotate(ar[], d, n) that rotates arr[] of size n by d elements. 
-
+// CPP
 using namespace std;
 #define takeInput for(int i = 0 ; i < n ; i++) cin >> arr[i] ;
 #define printArray for(int i = 0 ; i < n ; i++) cout << arr[i] << " " ;
@@ -9,6 +9,7 @@ using namespace std;
 void rotate(int arr[] , int d , int n) {
     // Brute force 
     // Time Complexity : O(n)
+
     int tempArray[d]  , startIndex = n - d ;
     for(int i = 0 ; i < d ; i++ ){
         tempArray[i] = arr[i];
